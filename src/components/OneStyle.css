@@ -1,4 +1,9 @@
-/* Container for the cards */
+
+
+h1 {
+  text-align: center;
+  padding: 5%;
+}
 .card-container {
   display: flex;
   flex-wrap: wrap; /* Allow items to wrap in rows */
@@ -30,7 +35,8 @@
 .card.small {
   width: 350px; /* Larger width for staggered cards */
   height: 350px; /* Larger height for staggered cards */
-  border-radius: 50%;
+  border-radius: 40%;
+  background-color: #b5a6429a;
 }
 
 .card.large {
@@ -39,17 +45,15 @@
 }
 
 /* Placeholder small cards */
-.placeholder {
-  background-color: lightgray;
-}
+
 
 /* Card image */
 .card-image {
   width: 100%;
   height: 100%;
-  object-fit: center;
-  object-position: center;
-  border-radius: 50%; /* Keep the image circular */
+  object-fit: none;
+  object-position: top;
+  border-radius: 45%; /* Keep the image circular */
   position: absolute;
   top: 0;
   left: 0;
@@ -57,8 +61,8 @@
 
 /* Card content */
 .card-inner {
-  display: flex; /* Use flex for the inner content */
-  flex-direction: column; /* Stack content vertically */
+  display: flex; 
+  flex-direction: column; 
   justify-content: center; /* Center content vertically */
   align-items: center; /* Center content horizontally */
   color: #ffffff;

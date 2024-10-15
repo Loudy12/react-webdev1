@@ -3,8 +3,8 @@ import React from 'react';
 import './OneStyle.css'; // Ensure the correct path for the CSS file
 
 interface CardProps {
-    content: string; // Prop for content
-    imgSrc: string; // Prop for image source
+    content: string; 
+    imgSrc: string; 
 }
 
 const CardOne: React.FC<CardProps> = ({ content, imgSrc }) => {
