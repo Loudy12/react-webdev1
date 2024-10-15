@@ -1,6 +1,6 @@
 // CardOne.tsx
 import React from 'react';
-import './OneStyle.css'; // Ensure the correct path for the CSS file
+import './OneStyle.css'; 
 
 interface CardProps {
     content: string; 

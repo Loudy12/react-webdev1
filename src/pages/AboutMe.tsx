@@ -6,7 +6,7 @@ import TwoCard from '../components/TwoCard';
 function AboutMe() {
   return (
     <div>
-      <h1>About Me</h1>
+      <h1 style ={{color: 'rgb(63, 39, 75)'}} >About Me</h1>
       
       <div className="card-container">
         {/* Row 1: Larger card (left) and small placeholder (right) */}

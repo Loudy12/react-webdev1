@@ -1,5 +1,5 @@
 import React from 'react';
-import './DosStyling.css'; // Import the CSS file for styling
+import './DosStyling.css'; 
 
 interface TwoCardProps {
     title: string;

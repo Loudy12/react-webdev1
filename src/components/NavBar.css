@@ -1,0 +1,35 @@
+/* NavBar.css */
+.custom-navbar {
+    background-color: rgb(32, 18, 39) !important; 
+    padding: 0.75rem; 
+  }
+  
+  /* Brand styling */
+  .custom-navbar .navbar-brand {
+    font-size: 2rem; 
+    font-weight: bold; 
+    color: #f58341; 
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .custom-navbar .navbar-brand:hover {
+    color: lightyellow; 
+  }
+  
+  /* Nav links styling */
+  .custom-navbar .nav-link {
+    font-size: 1.5rem; 
+    color: white; 
+  }
+  
+  .custom-navbar .nav-link:hover {
+    color: #f39158c9; 
+  }
+  
+
+  .navbar-toggler-icon{
+        color: #f58341;
+    }
+  
+
+  
