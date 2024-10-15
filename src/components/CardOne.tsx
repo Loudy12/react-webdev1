@@ -1,21 +1,27 @@
+// CardOne.tsx
 import React from 'react';
-import './OneStyle.css'; // Make sure the CSS path is correct
+import './OneStyle.css'; // Ensure the correct path for the CSS file
 
 interface CardProps {
-  imageSrc: string; // New prop for the image source
+    content: string; // Prop for content
+    imgSrc: string; // Prop for image source
 }
 
-function Card(props: CardProps) {
-  const { imageSrc } = props; // Destructure props to get imageSrc
+const CardOne: React.FC<CardProps> = ({ content, imgSrc }) => {
+    return (
+        <div>
+            <img src={imgSrc} alt="Card Image" className="card-image" />
+            <div className="card-inner">
+                {content.split('\n').map((line, index) => (
+                    <React.Fragment key={index}>
+                        {line}
+                        <br />
+                    </React.Fragment>
+                ))}
+            </div>
+        </div>
+    );
+};
 
-  return (
-    <div className="card">
-      <div className="card-overlay"></div>
-      <div className="card-inner">
-        <img src={imageSrc} alt="Card content" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-      </div>
-    </div>
-  );
-}
 
-export default Card;
+export default CardOne;
