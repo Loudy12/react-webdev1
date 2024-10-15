@@ -128,7 +128,7 @@ const ContactPage = () => {
           {errors.message && <p className="error">{errors.message}</p>}
         </div>
 
-        <button type="submit">Submit</button>
+        <button>Submit</button>
       </form>
 
       <div className="contact-info">
