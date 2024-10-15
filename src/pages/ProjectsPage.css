@@ -1,0 +1,102 @@
+.projects-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .artist-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  .artist-name {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .artist-bio {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .albums-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .albums-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 30px;
+  }
+  
+  .album-card {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .album-cover img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .album-name {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .release-date {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .song-list-title {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .song-list {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .spotify-link {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .spotify-link img {
+    width: 60px;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .spotify-link img:hover {
+    transform: scale(1.1);
+  }
+  

@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // Importing necessary components from react-router-dom
 import HomePage from "./pages/HomePage"; // Importing the HomePage component
 import AboutMe from "./pages/AboutMe"; // Importing the AboutMe component
-import ProjectsPage from "./pages/ProjectPage"; // Importing the ProjectsPage component
+import ProjectsPage from "./pages/ProjectsPage"; // Importing the ProjectsPage component
 import NavBar from "./components/NavBar"; // Importing the NavBar component
 import ContactPage from "./pages/ContactPage"; // Importing the ContactPage component
 

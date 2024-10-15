@@ -26,7 +26,7 @@ function NavBar() {
               About Me
             </Nav.Link>
             <NavDropdown title="Projects + Contact" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Projects</NavDropdown.Item>
+              <NavDropdown.Item href="/projects">Projects</NavDropdown.Item>
               <NavDropdown.Item href="https://www.instagram.com/bigxthaplug/">
                 Instagram
               </NavDropdown.Item>
