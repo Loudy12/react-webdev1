@@ -1,6 +1,6 @@
 import React from 'react';
-import CardOne from '../components/CardOne'; // Import the CardOne component
-import '../components/OneStyle.css'; // Ensure the correct path for the CSS file
+import CardOne from '../components/CardOne'; 
+import '../components/OneStyle.css'; 
 import TwoCard from '../components/TwoCard';
 
 function AboutMe() {
@@ -19,7 +19,7 @@ function AboutMe() {
 
         
         <div className="card large card5">
-        <TwoCard title="How I got started" content=""/>
+        <TwoCard title="Why Full-Stack?" content="I love full-stack development because it gives me control over everything. Front end, back end—it don’t matter, I run it all. It’s like being the producer and the artist at the same time. I get to design how things look and feel, then make sure it all runs smooth behind the scenes. There’s no limits, no waiting on someone else to do their part. I create the vision and bring it to life, start to finish. It’s the same rush I got from making beats, but now it’s code. It’s power, creativity, and freedom all in one."/>
         </div>
         <div className="card small card2">
           <CardOne content="Laugh" imgSrc="src/images/BigXimg2.jpg" />
@@ -31,7 +31,7 @@ function AboutMe() {
           
         </div>
         <div className="card large  card6">
-          <CardOne content="Placeholder" imgSrc="" />
+          <TwoCard title="Goals" content="As a full-stack developer, my goals are simple: build my empire, one line of code at a time. I am trying to create apps that break boundaries, things that people need but don’t even know yet. I want to be the plug for innovation, making sure my tech moves fast, clean, and always ahead of the game. I see myself leading projects that change the game for real, whether it is designing the slickest front end or running the back end like a boss. My aim is to own the space, control my hustle, and make my mark in the tech world." />
         </div>
       </div>
     </div>

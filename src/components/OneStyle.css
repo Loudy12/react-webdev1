@@ -1,26 +1,34 @@
 
 
 h1 {
-  text-align: center;
-  padding: 5%;
+  text-align: center; 
+  font-size: 4.5rem !important; 
+  font-weight: bold; 
+  color: rgb(63, 39, 75) 12px, 17px, 51px !important; 
+  margin: 20px 0; 
+  width: 100%; 
+  padding: 60px;
+  text-decoration: overline;
 }
+
 .card-container {
   display: flex;
   flex-wrap: wrap; /* Allow items to wrap in rows */
-  justify-content: flex-start; /* Align to the start */
+  justify-content: flex-start; 
   gap: 210px; /* Space between cards */
   margin-top: auto;
   margin-bottom: auto;
-  padding: 150px; /* Add padding */
+  padding-inline: 150px; 
+  padding-top: 30px;
 }
 
-/* Basic card styling */
+
 .card {
   --bg: #e8e8e8;
   --contrast: #e2e0e0;
   --grey: #93a1a1;
   position: relative;
-  border-radius: 50%; /* Make it a circle */
+  border-radius: 50%; /* makes it a circle */
   overflow: hidden;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
               rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
@@ -28,77 +36,79 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; /* Stack items vertically */
+  flex-direction: column; 
 }
 
-/* Larger staggered cards */
+
 .card.small {
-  width: 350px; /* Larger width for staggered cards */
-  height: 350px; /* Larger height for staggered cards */
+  width: 350px; 
+  height: 350px; 
   border-radius: 40%;
-  background-color: #b5a6429a;
+  background-color:  rgb(63, 39, 75);
 }
 
 .card.large {
-  width: 600px; /* Default width for smaller cards */
-  height: 400px; /* Keep height consistent */
+  width: 600px; 
+  height: 400px; 
 }
 
-/* Placeholder small cards */
+
 
 
 /* Card image */
 .card-image {
   width: 100%;
   height: 100%;
-  object-fit: none;
+  object-fit: cover; 
   object-position: top;
-  border-radius: 45%; /* Keep the image circular */
+  border-radius: 45%; 
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 0; 
 }
 
 /* Card content */
 .card-inner {
   display: flex; 
   flex-direction: column; 
-  justify-content: center; /* Center content vertically */
-  align-items: center; /* Center content horizontally */
+  justify-content: center; 
+  align-items: center; 
   color: #ffffff;
   text-align: center;
-  font-size: 16px; /* Adjusted font size for better fit */
+  font-size: 40px; 
   font-weight: 900;
-  font-family: monospace;
-  z-index: 1;
-  padding: 10px; /* Add padding */
-  max-height: 80%; /* Limit the height */
-  overflow: hidden; /* Prevent overflow */
-  white-space: normal; /* Allow text to wrap */
-  word-wrap: break-word; /* Ensure long words break */
+  font-family: 'Roboto', sans-serif;
+  z-index: 1; 
+  position: relative;
+  padding: 10px; 
+  max-height: 80%; 
+  overflow: hidden; 
+  white-space: normal;
+  word-wrap: break-word;
 }
 
-/* Stagger the cards using nth-child */
+/* stagger using nth-child */
 .card1 {
-  align-self: flex-start; /* Aligns top-left */
+  align-self: flex-start; 
 }
 
 .card2 {
-  align-self: flex-end; /* Aligns middle-right */
+  align-self: flex-end; 
 }
 
 .card3 {
-  align-self: flex-start; /* Aligns bottom-left */
+  align-self: flex-start; 
 }
 
 .card4 {
-  align-self: flex-end; /* Aligns middle-right */
+  align-self: flex-end;
 }
 
 .card5 {
-  align-self: flex-start; /* Aligns top-left */
+  align-self: flex-start; 
 }
 
 .card6 {
-  align-self: flex-end; /* Aligns bottom-right */
+  align-self: flex-end; 
 }
